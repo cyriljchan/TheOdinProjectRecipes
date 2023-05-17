@@ -1,0 +1,48 @@
+/* style.css */
+
+body {
+    background-color: rgb(170, 183, 209);
+    font-family: Tahoma;
+}
+
+.title {
+    /* background-color: red; */
+    margin: 20px;
+    text-align: center;
+}
+
+.menu {
+    /* background-color: black; */
+    display: table;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-items {
+    background-color: rgb(192, 224, 233);
+    margin: 15px;
+    border-radius: 1em;
+    border-color: black;
+    width: 300px;
+    height: 50px;
+
+    font-size: 15px;
+    font-family: Tahoma;
+}
+
+
+a {
+    color: rgb(172, 117, 30);
+    text-decoration: none;
+    line-height: 45px;
+}
+
+a:hover {
+    color: blanchedalmond;
+}
+
+a:visited {
+    color: rgb(84, 64, 32);
+}
