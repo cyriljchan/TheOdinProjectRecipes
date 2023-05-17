@@ -5,6 +5,27 @@ body {
     font-family: Tahoma;
 }
 
+a {
+    color: rgb(172, 117, 30);
+    text-decoration: none;
+    line-height: 30px;
+}
+
+a:hover {
+    color: blanchedalmond;
+}
+
+a:visited {
+    color: rgb(84, 64, 32);
+}
+
+.btn {
+    background-color: rgba(129, 104, 173, 0.259);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1em;
+}
+
 .title {
     /* background-color: red; */
     margin: 20px;
@@ -21,28 +42,6 @@ body {
 }
 
 .menu-items {
-    background-color: rgb(192, 224, 233);
-    margin: 15px;
-    border-radius: 1em;
-    border-color: black;
     width: 300px;
-    height: 50px;
-
-    font-size: 15px;
-    font-family: Tahoma;
-}
-
-
-a {
-    color: rgb(172, 117, 30);
-    text-decoration: none;
-    line-height: 45px;
-}
-
-a:hover {
-    color: blanchedalmond;
-}
-
-a:visited {
-    color: rgb(84, 64, 32);
+    height: 30px;
 }
