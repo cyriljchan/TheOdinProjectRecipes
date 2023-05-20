@@ -4,6 +4,7 @@
     /* background-color: pink; */
     display: flex;
     flex-direction: column;
+    align-self: center;
     max-width: 80%;
     width: 500px;
 }
