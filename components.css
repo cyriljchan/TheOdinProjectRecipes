@@ -37,6 +37,11 @@ a:hover {
     padding: 15px;
 }
 
+.title {
+    color: rgb(172, 117, 30);
+    text-align: center;
+}
+
 .header {
     /* background-color: red; */
     display: flex;
