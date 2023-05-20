@@ -1,8 +1,14 @@
 /* style.css */
 
+html {
+    display: flex;
+    justify-content: center;
+    font-family: Tahoma;
+}
+
 body {
     background-color: rgb(170, 183, 209);
-    font-family: Tahoma;
+    width: 80%;
 }
 
 a {
@@ -17,32 +23,40 @@ a:hover {
 
 .btn {
     background-color: rgba(129, 104, 173, 0.259);
-    
-    margin: 10px;
     padding: 10px;
     border-radius: 1em;
+    text-align: center;
 }
 
-.title {
+.header {
     /* background-color: red; */
-    text-align: center;
-    margin: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.footer {
+    /* background-color: blue; */
+    display: flex;
+    align-items: end;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .menu{
     /* background-color: pink; */
-    list-style-type: none;
-    text-align: center;
-
-    margin: 0 auto;
-    padding: 0;
-}
-
-.menu li {
-    background-color: rgba(129, 104, 173, 0.259);
-
-    max-width: 300px;
-    margin: 10px auto;
-    padding: 10px;
-    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    width: 500px;
 }
