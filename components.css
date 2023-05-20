@@ -21,11 +21,20 @@ a:hover {
     color: blanchedalmond;
 }
 
-.btn {
+.btn { /* anchor button */
     background-color: rgba(129, 104, 173, 0.259);
     padding: 10px;
     border-radius: 1em;
     text-align: center;
+}
+
+.block { /* flex-background */
+    background-color: rgba(129, 104, 173, 0.259);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    margin: 5px 0;
+    padding: 15px;
 }
 
 .header {
@@ -41,14 +50,13 @@ a:hover {
     /* background-color: green; */
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
 }
 
 .footer {
     /* background-color: blue; */
     display: flex;
-    align-items: end;
+    flex-direction: row;
     width: 100%;
     margin-top: 20px;
 }
