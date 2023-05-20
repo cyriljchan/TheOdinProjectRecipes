@@ -4,9 +4,3 @@ img {
     height: 20%;
     border-radius: 1em;
 }
-
-.recipe {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
