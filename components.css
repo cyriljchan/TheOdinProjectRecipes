@@ -1,0 +1,54 @@
+/* components.css */
+
+html {
+    display: flex;
+    justify-content: center;
+    font-family: Tahoma;
+}
+
+body {
+    background-color: rgb(170, 183, 209);
+    width: 80%;
+}
+
+a {
+    color: rgb(172, 117, 30);
+    text-decoration: none;
+    line-height: 30px;
+}
+
+a:hover {
+    color: blanchedalmond;
+}
+
+.btn {
+    background-color: rgba(129, 104, 173, 0.259);
+    padding: 10px;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.header {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.footer {
+    /* background-color: blue; */
+    display: flex;
+    align-items: end;
+    width: 100%;
+    margin-top: 20px;
+}
